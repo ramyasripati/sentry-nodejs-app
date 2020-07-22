@@ -1,0 +1,17 @@
+{
+  "name": "getting-started-nodejs",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.0.1",
+    "nodeunit": "0.7.4",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "app.js"
+  }
+}
